@@ -1,5 +1,5 @@
 {
-  "sourceDir": "./templates",
+  "sourceDir": "./",
   "snippetsDir": "placecode/snippets",
   "ignore": [
     "placecode",
