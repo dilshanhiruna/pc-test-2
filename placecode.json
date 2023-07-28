@@ -39,7 +39,7 @@
         "label": "option4",
         "description": "Description of option 4",
         "depend_features": [],
-        "depend_categories": ["category1"],
+        "depend_categories": [],
         "default": false,
         "enabled": true
       },
@@ -69,7 +69,7 @@
       {
         "label": "option7",
         "description": "Description of option 7",
-        "depend_features": ["option2"],
+        "depend_features": [""],
         "depend_categories": [],
         "default": false,
         "enabled": true

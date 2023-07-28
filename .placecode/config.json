@@ -1,8 +1,8 @@
 {
   "sourceDir": "./",
-  "snippetsDir": "placecode/snippets",
+  "snippetsDir": ".placecode/snippets",
   "ignore": [
-    "placecode",
+    ".placecode",
     "zpc.txt",
     "node_modules",
     "bin",

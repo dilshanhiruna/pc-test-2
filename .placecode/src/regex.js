@@ -1,7 +1,8 @@
 // used in generateTemplate, processPlacecodeFiles
 // `// pc:begin:.*${option}.*[\\s\\S]*?// pc:end:.*${option}\\s*`,
+// `// pc:begin:.*${option}.*[\\s\\S]*?// pc:end:.*${option}.*(?:\r?\n|$)`;
 const regex_start_to_end_options = (option) =>
-  `// pc:begin:.*${option}.*[\\s\\S]*?// pc:end:.*${option}.*(?:\r?\n|$)`;
+  `\\/\\/ pc:begin:.*?${option}\\b[\\s\\S]*?\\/\\/ pc:end:.*?${option}\\b(?:\\r?\\n|$)`;
 
 // start marker
 const regex_start_marker = /pc:begin:\s*([^/\n\r]*)/;
