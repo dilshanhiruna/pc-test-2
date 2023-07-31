@@ -1,5 +1,20 @@
 [
   {
+    "label": "frontend-framework",
+    "description": "Description of frontend-framework",
+    "required": true,
+    "features": [
+      {
+        "label": "React",
+        "description": "Description of React",
+        "depend_features": [""],
+        "depend_categories": [""],
+        "default": true,
+        "enabled": false
+      }
+    ]
+  },
+  {
     "label": "category1",
     "description": "Description of category 1",
     "required": true,
