@@ -1,3 +1,7 @@
+// pc:begin: React
+console.log("React");
+// pc:end: React
+
 // pc:begin: option1
 console.log("option1");
 // pc:end: option1
