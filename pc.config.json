@@ -1,0 +1,4 @@
+{
+  "snippetsDir": ".placecode/snippets",
+  "ignore": ["zpc.txt", "node_modules", "bin", "dist", "docs", ".git"]
+}
