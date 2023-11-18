@@ -31,11 +31,12 @@
   {
     "label": "category2",
     "description": "Description of category 2",
+    "required": true,
     "features": [
       {
         "label": "option4",
         "description": "Description of option 4",
-        "depend_features": [],
+        "depend_features": ["option7"],
         "depend_categories": [],
         "enabled": false
       },
@@ -58,7 +59,7 @@
   {
     "label": "category3",
     "description": "Description of category 3",
-    "required": false,
+    "multi": true,
     "features": [
       {
         "label": "option7",
