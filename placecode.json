@@ -1,38 +1,22 @@
 [
   {
-    "label": "frontend-framework",
-    "description": "Description of frontend-framework",
-    "required": true,
-    "features": [
-      {
-        "label": "React",
-        "description": "Description of React",
-        "depend_features": [""],
-        "depend_categories": [""],
-        "default": true,
-        "enabled": false
-      }
-    ]
-  },
-  {
     "label": "category1",
     "description": "Description of category 1",
     "required": true,
+    "multi": true,
     "features": [
       {
         "label": "option1",
         "description": "Description of option 1",
-        "depend_features": [""],
-        "depend_categories": ["category2"],
-        "default": false,
-        "enabled": false
+        "depend_features": [],
+        "depend_categories": [],
+        "enabled": true
       },
       {
         "label": "option2",
         "description": "Description of option 2",
-        "depend_features": [""],
+        "depend_features": [],
         "depend_categories": [],
-        "default": false,
         "enabled": true
       },
       {
@@ -40,70 +24,62 @@
         "description": "Description of option 3",
         "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       }
     ]
   },
   {
     "label": "category2",
     "description": "Description of category 2",
-    "required": true,
     "features": [
       {
         "label": "option4",
         "description": "Description of option 4",
         "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       },
       {
         "label": "option5",
         "description": "Description of option 5",
         "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       },
       {
         "label": "option6",
         "description": "Description of option 6",
         "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       }
     ]
   },
   {
     "label": "category3",
     "description": "Description of category 3",
-    "required": true,
+    "required": false,
     "features": [
       {
         "label": "option7",
         "description": "Description of option 7",
-        "depend_features": [""],
+        "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       },
       {
         "label": "option8",
         "description": "Description of option 8",
         "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       },
       {
         "label": "option9",
         "description": "Description of option 9",
         "depend_features": [],
         "depend_categories": [],
-        "default": false,
-        "enabled": true
+        "enabled": false
       }
     ]
   }
