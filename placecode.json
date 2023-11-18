@@ -8,21 +8,21 @@
       {
         "label": "option1",
         "description": "Description of option 1",
-        "depend_features": [],
+        "depend_features": ["option4"],
         "depend_categories": [],
         "enabled": true
       },
       {
         "label": "option2",
         "description": "Description of option 2",
-        "depend_features": [],
+        "depend_features": ["option4"],
         "depend_categories": [],
         "enabled": true
       },
       {
         "label": "option3",
         "description": "Description of option 3",
-        "depend_features": [],
+        "depend_features": ["option4"],
         "depend_categories": [],
         "enabled": false
       }
